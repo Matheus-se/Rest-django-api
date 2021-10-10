@@ -6,7 +6,7 @@ from rest_framework.authtoken.models import Token
 from rest_framework import authentication
 
 class Vendor(AbstractUser):
-    cnpj = models.CharField(max_length=14)
+    cnpj = models.CharField(max_length=14, unique=True)
     city = models.CharField(max_length=32, blank=True, null=True)
     
     def __str__(self):
