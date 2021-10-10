@@ -36,7 +36,7 @@ def list_vendor_view(request, id):
         serializer = VendorSerializer(vendor)
         return Response(serializer.data, status=status.HTTP_200_OK)
 
-class ProductsListView(ListAPIView):
+class VendorListView(ListAPIView):
     queryset = Vendor.objects.all()
     serializer_class = VendorSerializer
     pagination_class = PageNumberPagination
