@@ -18,10 +18,10 @@ This API was built using the Django rest framework, deployed in Heroku, and usin
 
 ## Working enviroment
 
-Python version: 3.9
-Operational system: windows 10
-PostgreSQL version: 14.0
-Text editor: VsCode
+- Python version: 3.9
+- Operational system: windows 10
+- PostgreSQL version: 14.0
+- Text editor: VsCode
 
 ## Related projects :mag:
 
