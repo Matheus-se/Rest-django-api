@@ -9,7 +9,7 @@ class VendorSerializer(serializers.ModelSerializer):
     
     class Meta:
         model = Vendor
-        fields = ['username', 'email', 'password', 'cnpj', 'city', 'products']
+        fields = ['id', 'username', 'email', 'password', 'cnpj', 'city', 'products']
         extra_kwargs = {
             'password': {'write_only': True}
         }
