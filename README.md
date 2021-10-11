@@ -16,13 +16,12 @@ The vendor catalog API provide access for registration, searching, deletion, and
 
 This API was built using the Django rest framework, deployed in Heroku, and using PostgreSQL as a database. The database was deployed in AWS RDS with a custom VPC, subnets, internet gateway, route table, and security groups.
 
-## Setup
+## Working enviroment
 
-You can test this api in your machine with the following command:
-
-```bat
-git clone https://github.com/Matheus-se/Rest-django-api.git
-```
+Python version: 3.9
+Operational system: windows 10
+PostgreSQL version: 14.0
+Text editor: VsCode
 
 ## Related projects :mag:
 
